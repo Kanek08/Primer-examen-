@@ -17,5 +17,15 @@ int main()
     getline(cin, texto);
     cout << texto;
     // Comience a programar desde aquí
+    for (int i=0;i<texto.length();i++){
+        cout << texto[i]<<endl;
+        if (texto[i]==texto){
+            cout << texto[i] << "fue el que mas se repitio"
+            // quise que cuando la cadena se repita para eso pero no me comparaba los textos asi que talvez no funcione y tenga que borrar el if  
+                    }
+
+
+
+    }
     return 0;
 }
